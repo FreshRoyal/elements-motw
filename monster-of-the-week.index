@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Dungeon Dad's Monster of the Week</name>
+		<update version="1.0.0">
+			<file name="monster-of-the-week.index" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week.index" />
+		</update>
+	</info>
+	<files>
+		<file name="source.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/source.xml" />
+		<file name="race-shardmind.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/race-shardmind.xml" />
+		<file name="subrace-shadowgenasi.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/subrace-shadowgenasi.xml" />
+		<file name="genie-khayal.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/genie-khayal.xml" />
+		<file name="race-lupin.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/race-lupin.xml" />
+		<file name="subrace-icegenasi.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/subrace-icegenasi.xml" />
+		<file name="genie-qorrashi.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/genie-qorrashi" />
+	</files>
+</index>
