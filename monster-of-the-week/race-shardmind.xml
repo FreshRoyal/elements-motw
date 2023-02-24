@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Shardmind from Monster of the Week</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="race-shardmind.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/race-shardmind.xml" />
 		</update>
 	</info>
@@ -17,7 +17,7 @@
 			<p>They don't have gender and don't reproduce, but the shardminds alive today aren't the same ones that sprang to life during the Dawn War. Shardminds say that the Living Gate shattered into countless fragments, each one of those fragments a fractured piece of the whole. Each shardmind is an awakened portion of the gate’s consciousness, and each time an awakened shardmind is killed, another one somewhere in the universe stirs to consciousness.</p>
 			<p class="indent">Shardminds are fragments of pure thought given life and substance. They are logical, emotionally distant, and naive to the ways of society in the world. Some approach life with innocent curiosity, eager to embrace the wealth of experiences the world has to offer, while others remain reserved and aloof, bearing a higher purpose in mind at all times. Though they often seem dispassionate, when a strong emotion seizes them, they experience it powerfully.</p>
 			<h4>Shardmind Names</h4>
-			<p class="indent">Amazu, Arshati, Balaya, Dihu, Hunraya, Kushu, Nashishi, ​Nashtu, Ruani, Runnashtu, Sanati, Ubaku</p>
+			<p class="indent" style="margin-top:15px">Amazu, Arshati, Balaya, Dihu, Hunraya, Kushu, Nashishi, ​Nashtu, Ruani, Runnashtu, Sanati, Ubaku</p>
 			<h4>Shardmind Traits</h4>
 			<p class="indent" style="margin-top:15px"><strong><em>Ability Score Increase:</em></strong> Your Intellegence increases by 2, and your Wisdom or Charisma score increases by 1.</p>
 			<p class="indent"><strong><em>Age:</em></strong> Shardminds are constructed as fully mature creatures and do not age.</p>
