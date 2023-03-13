@@ -2,7 +2,7 @@
 <index>
 	<info>
 		<name>Dungeon Dad's Monster of the Week</name>
-		<update version="1.0.1">
+		<update version="1.0.2">
 			<file name="monster-of-the-week.index" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week.index" />
 		</update>
 	</info>
