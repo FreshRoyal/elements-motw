@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Shardmind from Monster of the Week</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="race-shardmind.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/race-shardmind.xml" />
 		</update>
 	</info>
@@ -40,7 +40,7 @@
 		</setters>
 		<rules>
 			<stat name="intellegence" value="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Shardmind)" supports="MOTW Shardmind Ability Score Improvement" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
+			<select type="Ability Score Improvement" name="Ability Score Improvement +1 (Shardmind)" supports="ID_PHB_FEAT_ASI_WISDOM|ID_PHB_FEAT_ASI_CHARISMA" requirements="!ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Shardmind)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +1 (Shardmind)" supports="Custom Ability Score Increase 1" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
 			<stat name="innate speed" value="30" bonus="base"/>
@@ -55,12 +55,6 @@
 			<select type="Language" name="Customized Language" supports="Custom Race Language||MOTW Shardmind Language" number="2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 		</rules>
 	</element>
-	<append id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_WISDOM_INCREASE_1">
-		<supports>MOTW Shardmind Ability Score Improvement</supports>
-	</append>
-	<append id="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI_CHARISMA_INCREASE_1">
-		<supports>MOTW Shardmind Ability Score Improvement</supports>
-	</append>	
 	<append id="ID_MM_LANGUAGE_TERRAN">
 		<supports>MOTW Shardmind Language</supports>
 	</append>
