@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Khayal from Monster of the Week</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="genie-khayal.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/genie-khayal.xml" />
 		</update>
 	</info>
@@ -43,6 +43,9 @@
 			<extend>ID_PHB_SPELL_GREATER_INVISIBILITY</extend>
 			<extend>ID_PHB_SPELL_MISLEAD</extend>
 		</spellcasting>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/tr2917ppALQ</set>
+		</setters>
 	</element>
 	
 	<element name="Genie’s Wrath" type="Archetype Feature" source="Monster of the Week" id="ID_MOTW_ARCHETYPE_FEATURE_THE_GENIE_GENIES_VESSEL_GENIES_WRATH_KHAYAL">
@@ -53,6 +56,9 @@
 		<sheet>
 			<description>Once during each of your turns when you hit with an attack roll, you can deal {{proficiency}} Necrotic extra damage to the target.</description>
 		</sheet>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/tr2917ppALQ</set>
+		</setters>
 	</element>
 	
 	<element name="Elemental Gift" type="Archetype Feature" source="Monster of the Week" id="ID_MOTW_ARCHETYPE_FEATURE_THE_GENIE_ELEMENTAL_GIFT_KHAYAL">
@@ -67,5 +73,8 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_NECROTIC" />
 		</rules>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/tr2917ppALQ</set>
+		</setters>
 	</element>
 </elements>

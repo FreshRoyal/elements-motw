@@ -2,11 +2,11 @@
 <elements>
 	<info>
 		<name>Monster of the Week Source</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="source.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/source.xml" />
 		</update>
 	</info>
-	<element name="Monster of the Week" type="Source" source="Core" id="ID_SOURCE_MONSTER_WEEK">
+	<element name="Monster of the Week" type="Source" source="Core" id="ID_HOMEBREW_SOURCE_MONSTER_WEEK">
 		<description>
 			<p>Player character options from Dungeon Dad's Monster of the Week series.</p>
 		</description>

@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Qorrashi from Monster of the Week</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="genie-qorrashi.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/genie-qorrashi.xml" />
 		</update>
 	</info>
@@ -43,6 +43,9 @@
 			<extend>ID_PHB_SPELL_ICE_STORM</extend>
 			<extend>ID_PHB_SPELL_CONE_OF_COLD</extend>
 		</spellcasting>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/w0sa3Ffc0Xs</set>
+		</setters>
 	</element>
 	
 	<element name="Genie’s Wrath" type="Archetype Feature" source="Monster of the Week" id="ID_MOTW_ARCHETYPE_FEATURE_THE_GENIE_GENIES_VESSEL_GENIES_WRATH_QORRASHI">
@@ -53,6 +56,9 @@
 		<sheet>
 			<description>Once during each of your turns when you hit with an attack roll, you can deal {{proficiency}} Cold extra damage to the target.</description>
 		</sheet>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/w0sa3Ffc0Xs</set>
+		</setters>
 	</element>
 	
 	<element name="Elemental Gift" type="Archetype Feature" source="Monster of the Week" id="ID_MOTW_ARCHETYPE_FEATURE_THE_GENIE_ELEMENTAL_GIFT_QORRASHI">
@@ -67,5 +73,8 @@
 		<rules>
 			<grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
 		</rules>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/w0sa3Ffc0Xs</set>
+		</setters>
 	</element>
 </elements>

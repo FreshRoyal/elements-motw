@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Lupin from Monster of the Week</name>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="race-lupin.xml" url="https://raw.githubusercontent.com/FreshRoyal/elements-motw/master/monster-of-the-week/race-lupin.xml" />
 		</update>
 	</info>
@@ -58,6 +58,9 @@
 		<sheet>
 			<description>Whenever you make an ability check that relies on hearing or smell, you are considered proficient with the skill. You have advantage on any ability check you make to track a creature or object.</description>
 		</sheet>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/vbsoN8SJLaw</set>
+		</setters>
 	</element>
 
 	<element name="Bite" type="Racial Trait" source="Monster of the Week" id="ID_MOTW_RACIAL_TRAIT_LUPIN_BITE">
@@ -67,6 +70,9 @@
 		<sheet>
 			<description>You can use your jaws to make unarmed strikes. When you hit with them, the strike deals 1d6 + {{strength:modifier}}.</description>
 		</sheet>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/vbsoN8SJLaw</set>
+		</setters>
 	</element>
 
 	<element name="Fierce Loyalty" type="Racial Trait" source="Monster of the Week" id="ID_MOTW_RACIAL_TRAIT_LUPIN_FIERCE_LOYALTY">
@@ -76,6 +82,9 @@
 		<sheet action="Reaction">
 			<description>When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to make the attack target you instead.</description>
 		</sheet>
+		<setters>
+			<set name="sourceUrl">https://youtu.be/vbsoN8SJLaw</set>
+		</setters>
 	</element>
 
 	<element name="Lupin" type="Language" source="Monster of the Week" id="ID_MOTW_LANGUAGE_LUPIN">
@@ -86,6 +95,7 @@
 		<setters>
 			<set name="exotic">true</set>
 			<set name="speakers">Lupin</set>
+			<set name="sourceUrl">https://youtu.be/vbsoN8SJLaw</set>
 		</setters>
 	</element>
 </elements>
